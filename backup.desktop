@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=backup
+Icon=utilities-terminal
+Exec=gnome-terminal --maximize -x bash -c "cd `dirname %k` && ./backup.sh ; sync; echo '@ Press any key ...' ; read"
+Categories=Application;
