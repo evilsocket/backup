@@ -1,4 +1,6 @@
-Backup scripts I use on my drives, instructions:
+Backup scripts I use on my drives.
+
+## How To
 
 0) Copy `backup*.*` on your drive root.
 1) Edit the `TO_BACKUP` list of folders and files you want to backup in the `backup_to.sh` script.
